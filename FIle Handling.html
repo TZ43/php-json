@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+	<h1>Registration Form</h1>
+	<hr>
+	<br>
+
+
+	
+ <form action="File Handling.php"   method="POST">
+
+ <fieldset>
+  <legend>Basic Information:</legend>
+		
+		<label for="FirstName">First Name:</label>
+		<input type="text" name="fname" id="FirstName" required>
+		<br>
+
+	    <label for="LastName">Last Name:</label>
+		<input type="text" name="lname" id="LastName" required>
+		<br>
+
+		<label for="Gender">Gender:</label>
+		<input type="radio" name="gender" id="Male" value="Male" required>
+
+		<label for="Male">Male</label>
+
+		<input type="radio" name="gender" id="Female" value="Female" required>
+
+		<label for="Female">Female</label>
+
+		<br>
+
+	    <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br>
+		
+		</fieldset>
+
+       
+        <fieldset>
+		<legend>User Account Information </legend>
+		
+		<label for="uname">User Name:</label>
+		<input type="text" name="uname" id="uname" required>
+		<br>
+
+		<label for="Password">Password:</label>
+		<input type="password" id="Password" name="password" required>
+		<br>
+		<label for="RecoveryEmail">Recovery Email Address:</label>
+        <input type="email" id="RecoveryEmail" name="recoveryemail" required>
+        <br>
+        </fieldset>
+		
+		<input type="submit" value="Submit">
+
+	</form>
+
+</body>
+</html>
+

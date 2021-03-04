@@ -1,0 +1,1 @@
+{"uname":"talha01","password":"12","fname":"Talha ","lname":"Zubaer","gender":"Male","email":"santofantastic@gmail.com"}
